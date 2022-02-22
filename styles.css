@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
+
+:root {
+  --body-bg-color: #FAF7FD;
+  --purple: #BB99DD;
+}
+
+body{
+  height: 100vh;
+  overflow: hidden;
+  background-color: var(--body-bg-color);
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+}
+
+.profile{
+  position: absolute;
+  width: 15em;
+  height: 15em;
+  border-radius: 180px;
+  left: 55em;
+  top: 11.85em;
+}
+
+.user{
+  position: absolute;
+  left: 58em;
+  top: 30em;
+  color: var(--purple);
+}
+
+.content{
+  position: absolute;
+  left: 60em;
+  top: 33.8em;
+  align-items: center;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+}
+
+.path1{
+  position: absolute;
+  left: 1.5em;
+  top: 0em;
+  text-decoration: none;
+  font-weight: 300;
+  text-transform: lowercase;
+}
+
+.path2{
+  position: absolute;
+  left: 0.71em;
+  top: 2em;
+  font-weight: 300;
+  text-decoration: none;
+  text-transform: lowercase;
+}
+
+.path3{
+  position: absolute;
+  left: 1.3em;
+  top: 4em;
+  font-weight: 300;
+  text-decoration: none;
+  text-transform: lowercase;
+}
+
+.path4{
+  position: absolute;
+  left: 1.8em;
+  top: 6em;
+  font-weight: 300;
+  text-decoration: none;
+  text-transform: lowercase;
+}
+
+footer{
+  position: absolute;
+  left: 55.9em;
+  top: 48em;
+  justify-content: space-between;
+}
+
+.link{
+  padding: 10px;
+}
